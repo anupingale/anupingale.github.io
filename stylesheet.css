@@ -1,8 +1,14 @@
 .slide_images {
-  height:300px;
-  width:500px;
+  height:400px;
+  width:800px;
+  margin-left: 23%;
+  border: black 1px solid;
   vertical-align: center;
-  margin-left:33%
+}
+
+.heading {
+  position: sticky;
+  top:0
 }
 
 body {
@@ -11,6 +17,7 @@ body {
 
 .mySlides {
   display: none;
+  margin-bottom: 20px
 }
 
 .dot {
@@ -23,12 +30,38 @@ body {
   transition: background-color 0.2s all;
 }
 
-.active {
-  background-color: #717171;
+.book_list {
+  border: solid black 1px;
+  float:left;
+  height: 300px;
+  width: 450px;
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
+.books {
+  margin-top:40px;
+  margin-right:30px;
+  border: solid black 2px;
+  width:900px;
+  height: 300px;
+  float: right;
+}
+
+ul#menu li {
+  display: block;
+  width: 170px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.active {
+  background-color: #717171;
 }
